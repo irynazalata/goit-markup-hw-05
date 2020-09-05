@@ -142,10 +142,31 @@ p {
 }
 
 .activity .list-item {
+  position: relative;
   width: 370px;
   margin: 15px;
 }
 
+.activity .list-item-text {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: var(--primary-wh-color);
+    background-color: rgba(47, 48, 58, 0.8);
+}
+}
 /* TEAM */
 
 .team {
