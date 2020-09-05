@@ -148,24 +148,23 @@ p {
 }
 
 .activity .list-item-text {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-align: center;
-    text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
 
-    color: var(--primary-wh-color);
-    background-color: rgba(47, 48, 58, 0.8);
-}
+  color: var(--primary-wh-color);
+  background-color: rgba(47, 48, 58, 0.8);
 }
 /* TEAM */
 
@@ -237,6 +236,7 @@ p {
   width: 170px;
   height: 90px;
   border: 1px solid #afb1b8;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients .list-item-link:hover {
@@ -245,6 +245,7 @@ p {
 
 .clients .list-item-link-svg {
   fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients .list-item-link:hover .list-item-link-svg {
