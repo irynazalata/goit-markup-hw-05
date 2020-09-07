@@ -64,6 +64,7 @@ header {
 .examples-item {
   width: 370px;
   margin: 15px;
+  border: 1px solid #eeeeee;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -99,16 +100,13 @@ header {
 }
 
 .examples-item-description {
-  border-left: 1px solid #eeeeee;
+  padding: 20px 24px;
+  /* border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee; */
 }
 
 .examples-title {
-  margin-right: 20px;
-  margin-bottom: 4px;
-  margin-left: 20px;
-  padding-top: 20px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -117,9 +115,6 @@ header {
 }
 
 .examples-type {
-  margin-right: 20px;
-  margin-left: 20px;
-  padding-bottom: 20px;
   font-size: 16px;
   line-height: 2;
 
